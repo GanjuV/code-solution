@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+body {
+    background-color: #fafafa;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+h1 {
+    margin: 1.2em 0 0 0 !important;
+}
+
+.hidden { display: none !important;}
+.loading-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

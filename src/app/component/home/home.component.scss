@@ -1,0 +1,111 @@
+.home-container {
+    margin-top: 2em;
+
+    mat-form-field {
+        font-size: 1em;
+    }
+    .row {
+        display: grid;
+        max-width: 880px;
+        margin: 20px auto;
+        grid-column-gap: 35px;
+    }
+
+    .first-section {
+        margin-bottom: 2em;
+        max-width: 580px;
+
+        mat-card-subtitle {
+            text-align: right;
+            label {
+                position: relative;
+                top: -5px;
+            }
+        }
+
+        mat-card-title {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .wrapper-div {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .heading {
+                height: 40px;
+                width: 150px;
+                margin: 2px;
+                font-size: 2em;
+                text-align: center;
+            }
+
+            .footer {
+                height: 20px;
+                width: 150px;
+                margin: 2px;
+                font-size: 1em;
+                text-align: center;
+                color: #aaa;
+            }
+        }
+    }
+    
+    mat-card {
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    .border-bottom {
+        border-bottom: 1px solid #ddd;
+    }
+
+    .card {
+        background: #fff;
+        border-radius: 4px;
+        position: relative;
+    }
+
+    .card-content {
+        position: relative;
+        padding: 0 20px;
+
+        label {
+            position: relative;
+            margin-left: 10px;
+        }
+
+        .left-border {
+            border-left: 1px solid #ddd;
+        }
+    }
+}
+
+.details-table {
+    margin-top: 2em;
+    position: relative;
+        
+    table {
+        width: 100%;
+    }
+
+    td, th {
+        width: 25%;
+        text-transform: capitalize;
+        font-weight: 400;
+    }
+
+    th {
+        font-size: 1.3em;
+    }
+
+    .remove-shadow {
+        box-shadow: none;
+    }
+
+    // Angular Material Style Reset
+    mat-header-cell {
+        font-size: 1.5em !important;
+    }
+}

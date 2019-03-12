@@ -1,0 +1,7 @@
+{
+  "/houseData/*": {
+    "target": "https://demo.interfacema.de/programming-assessment-1.0/buildings",
+    "secure": false,
+    "logLevel": "debug"
+  }
+}
